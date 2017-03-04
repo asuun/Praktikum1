@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title>Vorm</title>
+<body>
+
+<h1>Sisesta andmed:</h1>
+<p>Katse, kas jõuavad andmebaasi kohale.</p>
+
+<form action="vormit66tlus.php" method="post">
+  Eesnimi:<br>
+  <input type="text" name="eesnimi"><br>
+  Perenimi:<br>
+  <input type="text" name="perenimi">
+  <input type="submit" value="Submit">
+  <input type="submit" name="fetch" value="Fetch">
+</form>
+
+</body>
+</html>
